@@ -34,7 +34,7 @@ return [
 	"different"      => ":attribute ile :other birbirinden farklı olmalıdır.",
 	"digits"         => ":attribute :digits rakam olmalıdır.",
 	"digits_between" => ":attribute :min ile :max arasında rakam olmalıdır.",
-	"email"          => ":attribute doğru bir email olmalıdır.",
+	"email"          => ":attribute doğru bir e-posta olmalıdır.",
 	"filled"         => "Seçili :attribute alanı doldurulmak zorundadır.",
 	"exists"         => "Seçili :attribute geçersiz.",
 	"image"          => ":attribute alanı resim dosyası olmalıdır.",
@@ -66,13 +66,13 @@ return [
 	"same"                 => ":attribute ile :other eşleşmelidir.",
 	"size"                 => [
 		"numeric" => ":attribute :size olmalıdır.",
-		"file"    => ":attribute :size kilobyte olmalıdır.",
+		"file"    => ":attribute :size kilobayt olmalıdır.",
 		"string"  => ":attribute :size karakter olmalıdır.",
 		"array"   => ":attribute :size nesneye sahip olmalıdır."
 	],
 	"unique"   => ":attribute daha önceden kayıt edilmiş.",
 	"url"      => ":attribute biçimi geçersiz.",
-	"timezone" => ":attribute geçerli bir zaman değeri olmalıdır.",
+	"timezone" => ":attribute geçerli bir zaman bölgesi olmalıdır.",
 
 	/*
 	|--------------------------------------------------------------------------
