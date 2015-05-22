@@ -13,10 +13,10 @@ return [
 	|
 	*/
 
-	"password" => "Şifreler altı karakter olmalı ve onay ile eşleşmelidir.",
-	"user" => "Bu e-mail adresi ile kayıtlı bir üye bulunmuyor.",
-	"token" => "Şifre sıfırlama bileti geçersiz.",
-	"sent" => "Şifre sıfırlama bileti başarı ile gönderildi!",
-	"reset" => "Şifreniz başarıyla sıfırlandı!",
+	"password" => "Parolalar en az altı karakter olmalı ve onay ile eşleşmelidir.",
+	"user" => "Bu e-posta adresi ile kayıtlı bir üye bulunmuyor.",
+	"token" => "Parola sıfırlama bileti geçersiz.",
+	"sent" => "Parola sıfırlama bileti e-posta ile gönderildi!",
+	"reset" => "Parolanız başarıyla sıfırlandı!",
 
 ];
