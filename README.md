@@ -1,2 +1,2 @@
 # Laravel5-lang
-Laravel 5.0 Türkçe dil dosyaları
+Laravel 5.* Türkçe dil dosyaları
