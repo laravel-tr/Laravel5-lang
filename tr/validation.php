@@ -41,6 +41,7 @@ return [
     'in'             => ':attribute değeri geçersiz.',
     'integer'        => ':attribute rakam olmalıdır.',
     'ip'             => ':attribute geçerli bir IP adresi olmalıdır.',
+    'json'           => ':attribute geçerli bir JSON dizesi olmalıdır.',
     'max'            => [
         'numeric' => ':attribute değeri :max değerinden küçük olmalıdır.',
         'file'    => ':attribute değeri :max kilobayt değerinden küçük olmalıdır.',
@@ -59,6 +60,7 @@ return [
     'regex'                => ':attribute biçimi geçersiz.',
     'required'             => ':attribute alanı gereklidir.',
     'required_if'          => ':attribute alanı, :other :value değerine sahip olduğunda zorunludur.',
+    'required_unless'      => ':attribute alanı, :other :values değerine sahip olmadığında zorunludur.',
     'required_with'        => ':attribute alanı :values varken zorunludur.',
     'required_with_all'    => ':attribute alanı :values varken zorunludur.',
     'required_without'     => ':attribute alanı :values yokken zorunludur.',
