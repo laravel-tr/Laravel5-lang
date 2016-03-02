@@ -1,6 +1,6 @@
-## Laravel 5.1.x Türkçe dil dosyaları
+## Laravel 5.2.x Türkçe dil dosyaları
 
-> "[Laravel Türkiye](http://laravel.gen.tr/)" tarafından Laravel 5.1.x sürümleri için tercüme edilen ve geliştirilen Laravel Türkçe dil dosyalarıdır.
+> "[Laravel Türkiye](http://laravel.gen.tr/)" tarafından Laravel 5.2.x sürümleri için tercüme edilen ve geliştirilen Laravel Türkçe dil dosyalarıdır.
 
 
 ### Dil dosyası kurulumu
