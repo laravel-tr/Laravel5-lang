@@ -40,6 +40,7 @@ return [
     'exists'         => 'Seçili :attribute geçersiz.',
     'image'          => ':attribute alanı resim dosyası olmalıdır.',
     'in'             => ':attribute değeri geçersiz.',
+    'in_array'       => ':attribute değeri :other içinde mevcut değil.',
     'integer'        => ':attribute rakam olmalıdır.',
     'ip'             => ':attribute geçerli bir IP adresi olmalıdır.',
     'json'           => ':attribute geçerli bir JSON dizesi olmalıdır.',
