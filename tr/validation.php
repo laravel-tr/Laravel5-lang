@@ -34,6 +34,7 @@ return [
     'different'      => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits'         => ':attribute :digits rakam olmalıdır.',
     'digits_between' => ':attribute :min ile :max arasında rakam olmalıdır.',
+    'dimensions'     => ':attribute geçersiz resim ölçülerine sahiptir.',
     'distinct'       => ':attribute tekrarlanan bir değere sahiptir.',
     'email'          => ':attribute doğru bir e-posta olmalıdır.',
     'filled'         => 'Seçili :attribute alanı doldurulmak zorundadır.',
