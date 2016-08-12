@@ -61,7 +61,7 @@ return [
     ],
     'not_in'               => 'Seçili :attribute geçersiz.',
     'numeric'              => ':attribute rakam olmalıdır.',
-'present'              => 'The :attribute field must be present.', // https://laravel.com/docs/master/validation#rule-present
+    'present'              => ':attribute alanı var olmalıdır.',
     'regex'                => ':attribute biçimi geçersiz.',
     'required'             => ':attribute alanı gereklidir.',
     'required_if'          => ':attribute alanı, :other :value değerine sahip olduğunda zorunludur.',
