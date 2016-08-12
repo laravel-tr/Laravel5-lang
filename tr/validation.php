@@ -35,12 +35,12 @@ return [
     'digits'         => ':attribute :digits rakam olmalıdır.',
     'digits_between' => ':attribute :min ile :max arasında rakam olmalıdır.',
     'dimensions'     => ':attribute geçersiz resim ölçülerine sahiptir.',
-    'distinct'       => ':attribute alanı yinelenen bir değere sahip.',
     'dimensions'     => ':attribute görsel ölçüleri geçersiz.',
+    'distinct'       => ':attribute alanı yinelenen bir değere sahip.',
     'email'          => ':attribute doğru bir e-posta olmalıdır.',
-    'filled'         => 'Seçili :attribute alanı doldurulmak zorundadır.',
     'exists'         => 'Seçili :attribute geçersiz.',
     'file'           => ':attribute dosya olmalıdır.',
+    'filled'         => 'Seçili :attribute alanı doldurulmak zorundadır.',
     'image'          => ':attribute alanı resim dosyası olmalıdır.',
     'in'             => ':attribute değeri geçersiz.',
     'in_array'       => ':attribute alanı :other içinde mevcut değil.',
@@ -62,6 +62,7 @@ return [
     ],
     'not_in'               => 'Seçili :attribute geçersiz.',
     'numeric'              => ':attribute rakam olmalıdır.',
+'present'              => 'The :attribute field must be present.', // https://laravel.com/docs/master/validation#rule-present
     'regex'                => ':attribute biçimi geçersiz.',
     'required'             => ':attribute alanı gereklidir.',
     'required_if'          => ':attribute alanı, :other :value değerine sahip olduğunda zorunludur.',
@@ -88,7 +89,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify custom validation messages for attributes using the
-    | convention 'attribute.rule' to name the lines. This makes it quick to
+    | convention "attribute.rule" to name the lines. This makes it quick to
     | specify a specific custom language line for a given attribute rule.
     |
     */
@@ -106,7 +107,7 @@ return [
     |
     | The following language lines are used to swap attribute place-holders
     | with something more reader friendly such as E-Mail Address instead
-    | of 'email'. This simply helps us make messages a little cleaner.
+    | of "email". This simply helps us make messages a little cleaner.
     |
     */
 
