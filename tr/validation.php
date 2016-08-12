@@ -35,7 +35,6 @@ return [
     'digits'         => ':attribute :digits rakam olmalıdır.',
     'digits_between' => ':attribute :min ile :max arasında rakam olmalıdır.',
     'dimensions'     => ':attribute geçersiz resim ölçülerine sahiptir.',
-    'dimensions'     => ':attribute görsel ölçüleri geçersiz.',
     'distinct'       => ':attribute alanı yinelenen bir değere sahip.',
     'email'          => ':attribute doğru bir e-posta olmalıdır.',
     'exists'         => 'Seçili :attribute geçersiz.',
