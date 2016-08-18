@@ -34,12 +34,11 @@ return [
     'different'      => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits'         => ':attribute :digits rakam olmalıdır.',
     'digits_between' => ':attribute :min ile :max arasında rakam olmalıdır.',
-    'distinct'       => ':attribute tekrarlanan bir değere sahiptir.',
     'email'          => ':attribute doğru bir e-posta olmalıdır.',
-    'filled'         => 'Seçili :attribute alanı doldurulmak zorundadır.',
     'exists'         => 'Seçili :attribute geçersiz.',
+    'filled'         => ':attribute alanının doldurulması zorunludur.',
     'image'          => ':attribute alanı resim dosyası olmalıdır.',
-    'in'             => ':attribute değeri geçersiz.',
+    'in'             => 'Seçili :attribute değeri geçersiz.',
     'integer'        => ':attribute rakam olmalıdır.',
     'ip'             => ':attribute geçerli bir IP adresi olmalıdır.',
     'json'           => ':attribute geçerli bir JSON dizesi olmalıdır.',
@@ -71,7 +70,7 @@ return [
         'numeric' => ':attribute :size olmalıdır.',
         'file'    => ':attribute :size kilobayt olmalıdır.',
         'string'  => ':attribute :size karakter olmalıdır.',
-        'array'   => ':attribute :size nesneye sahip olmalıdır.'
+        'array'   => ':attribute :size nesneye sahip olmalıdır.',
     ],
     'string'   => ':attribute karakterlerden oluşmalıdır.',
     'timezone' => ':attribute geçerli bir zaman bölgesi olmalıdır.',
@@ -84,7 +83,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify custom validation messages for attributes using the
-    | convention 'attribute.rule' to name the lines. This makes it quick to
+    | convention "attribute.rule" to name the lines. This makes it quick to
     | specify a specific custom language line for a given attribute rule.
     |
     */
@@ -102,7 +101,7 @@ return [
     |
     | The following language lines are used to swap attribute place-holders
     | with something more reader friendly such as E-Mail Address instead
-    | of 'email'. This simply helps us make messages a little cleaner.
+    | of "email". This simply helps us make messages a little cleaner.
     |
     */
 
