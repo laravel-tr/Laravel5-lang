@@ -49,7 +49,7 @@ return [
     'max'            => [
         'numeric' => ':attribute değeri :max değerinden büyük olmamalıdır.',
         'file'    => ':attribute değeri :max kilobayt değerinden büyük olmamalıdır.',
-        'string'  => ':attribute değeri :max karakter değerinden büyük olmamalıdır.',
+        'string'  => ':attribute değeri en fazla :max karakter uzunluğunda olmalıdır.',
         'array'   => ':attribute değeri :max adedinden fazla nesneye sahip olmamalıdır.',
     ],
     'mimes' => ':attribute dosya biçimi :values olmalıdır.',
