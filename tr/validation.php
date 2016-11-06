@@ -53,6 +53,7 @@ return [
         'array'   => ':attribute değeri :max adedinden fazla nesneye sahip olmamalıdır.',
     ],
     'mimes' => ':attribute dosya biçimi :values olmalıdır.',
+    'mimetypes'  => ':attribute dosya biçimi :values olmalıdır.',
     'min'   => [
         'numeric' => ':attribute değeri en az :min değerinde olmalıdır.',
         'file'    => ':attribute değeri en az :min kilobayt değerinde olmalıdır.',
@@ -80,7 +81,9 @@ return [
     'string'   => ':attribute karakterlerden oluşmalıdır.',
     'timezone' => ':attribute geçerli bir zaman bölgesi olmalıdır.',
     'unique'   => ':attribute daha önceden kayıt edilmiş.',
+    'uploaded' => ':attribute yüklenirken hata oluştu.',
     'url'      => ':attribute biçimi geçersiz.',
+
 
     /*
     |--------------------------------------------------------------------------
