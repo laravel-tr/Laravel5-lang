@@ -15,12 +15,14 @@ return [
 
     'accepted'   => ':attribute kabul edilmelidir.',
     'active_url' => ':attribute geçerli bir URL olmalıdır.',
-    'after'      => ':attribute şundan daha eski bir tarih olmalıdır :date.',
+    'after'      => ':attribute değeri, :date tarihinden daha sonraki bir tarih olmalıdır.',
+    'after_or_equal' => ':attribute değeri, :date tarihinden daha sonraki veya aynı tarih olmalıdır.',
     'alpha'      => ':attribute sadece harflerden oluşmalıdır.',
     'alpha_dash' => ':attribute sadece harfler, rakamlar ve tirelerden oluşmalıdır.',
     'alpha_num'  => ':attribute sadece harfler ve rakamlar içermelidir.',
     'array'      => ':attribute dizi olmalıdır.',
     'before'     => ':attribute şundan daha önceki bir tarih olmalıdır :date.',
+    'before_or_equal' => ':attribute değeri, :date tarihinden daha önceki veya aynı tarih olmalıdır.',
     'between'    => [
         'numeric' => ':attribute :min - :max arasında olmalıdır.',
         'file'    => ':attribute :min - :max arasındaki kilobayt değeri olmalıdır.',
