@@ -47,6 +47,8 @@ return [
     'in_array'       => ':attribute değeri :other içinde mevcut değil.',
     'integer'        => ':attribute rakam olmalıdır.',
     'ip'             => ':attribute geçerli bir IP adresi olmalıdır.',
+    'ipv4'           => ':attribute geçerli bir IPv4 adresi olmalıdır.',
+    'ipv6'           => ':attribute geçerli bir IPv6 adresi olmalıdır.',
     'json'           => ':attribute geçerli bir JSON dizesi olmalıdır.',
     'max'            => [
         'numeric' => ':attribute değeri :max değerinden büyük olmamalıdır.',
