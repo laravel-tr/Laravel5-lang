@@ -1,10 +1,9 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Language Lines
+    | Password Reminder Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are the default lines which match reasons
@@ -13,10 +12,9 @@ return [
     |
     */
 
-    'password'  => 'Parolalar en az altı karakter olmalı ve onay ile eşleşmelidir.',
-    'reset'     => 'Parolanız başarıyla sıfırlandı!',
-    'sent'      => 'Parola sıfırlama bileti e-posta ile gönderildi!',
-    'token'     => 'Parola sıfırlama bileti geçersiz.',
-    'user'      => 'Bu e-posta adresi ile kayıtlı bir üye bulunmuyor.',
-
+    'password' => 'Parolanız en az altı karakter olmalı ve doğrulama ile eşleşmelidir.',
+    'reset' => 'Parolanız sıfırlandı!',
+    'sent' => 'Parola sıfırlama bağlantınız e-posta ile gönderildi!',
+    'token' => 'Parola sıfırlama adresi/kodu geçersiz.',
+    'user' => 'Bu e-posta adresi ile kayıtlı bir üye bulunmuyor.',
 ];
