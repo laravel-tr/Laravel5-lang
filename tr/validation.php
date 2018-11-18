@@ -1,9 +1,10 @@
 <?php
 
 return [
+
     /*
     |--------------------------------------------------------------------------
-    | Validation Language Lines
+    | Doğrulama mesajları
     |--------------------------------------------------------------------------
     |
     | The following language lines contain the default error messages used by
@@ -41,6 +42,18 @@ return [
     'exists' => 'Seçili :attribute geçersiz.',
     'file' => ':attribute dosya olmalıdır.',
     'filled' => ':attribute alanının doldurulması zorunludur.',
+    'gt' => [
+        'numeric' => ':attribute, :value değerinden büyük olmalı.',
+        'file'    => ':attribute, :value KB boyutundan büyük olmalı.',
+        'string'  => ':attribute, :value karakterden uzun olmalı.',
+        'array'   => ':attribute, :value taneden fazla olmalı.',
+    ],
+    'gte' => [
+        'numeric' => ':attribute, :value kadar veya daha fazla olmalı.',
+        'file'    => ':attribute, :value KB boyutu kadar veya daha büyük olmalı.',
+        'string'  => ':attribute, :value karakter kadar veya daha uzun olmalı.',
+        'array'   => ':attribute, :value tane veya daha fazla olmalı.',
+    ],
     'image' => ':attribute alanı resim dosyası olmalıdır.',
     'in' => ':attribute değeri geçersiz.',
     'in_array' => ':attribute alanı :other içinde mevcut değil.',
@@ -49,6 +62,18 @@ return [
     'ipv4' => ':attribute geçerli bir IPv4 adresi olmalıdır.',
     'ipv6' => ':attribute geçerli bir IPv6 adresi olmalıdır.',
     'json' => ':attribute geçerli bir JSON değişkeni olmalıdır.',
+    'lt' => [
+        'numeric' => ':attribute, :value değerinden küçük olmalı.',
+        'file'    => ':attribute, :value KB boyutundan küçük olmalı.',
+        'string'  => ':attribute, :value karakterden kısa olmalı.',
+        'array'   => ':attribute, :value taneden az olmalı.',
+    ],
+    'lte' => [
+        'numeric' => ':attribute, :value kadar veya daha küçük olmalı.',
+        'file'    => ':attribute, :value KB boyutu kadar veya daha küçük olmalı.',
+        'string'  => ':attribute, :value karakter kadar veya daha kısa olmalı.',
+        'array'   => ':attribute, :value tane veya daha az olmalı.',
+    ],
     'max' => [
         'numeric' => ':attribute değeri :max değerinden küçük olmalıdır.',
         'file' => ':attribute değeri :max kilobayt değerinden küçük olmalıdır.',
@@ -64,6 +89,7 @@ return [
         'array' => ':attribute en az :min nesneye sahip olmalıdır.',
     ],
     'not_in' => 'Seçili :attribute geçersiz.',
+    'not_regex' => ':attribute biçimi geçersiz.',
     'numeric' => ':attribute sayı olmalıdır.',
     'present' => ':attribute alanı mevcut olmalıdır.',
     'regex' => ':attribute biçimi geçersiz.',
@@ -86,6 +112,7 @@ return [
     'unique' => ':attribute daha önceden kayıt edilmiş.',
     'uploaded' => ':attribute yüklemesi başarısız.',
     'url' => ':attribute biçimi geçersiz.',
+    'uuid' => ':attribute bir UUID formatına uygun olmalı.',
 
     /*
     |--------------------------------------------------------------------------
@@ -115,6 +142,6 @@ return [
     |
     */
 
-    'attributes' => [
-    ],
+    'attributes' => [],
+
 ];
