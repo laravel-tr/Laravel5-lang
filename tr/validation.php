@@ -7,9 +7,9 @@ return [
     | Doğrulama mesajları
     |--------------------------------------------------------------------------
     |
-    | The following language lines contain the default error messages used by
-    | the validator class. Some of these rules have multiple versions such
-    | as the size rules. Feel free to tweak each of these messages.
+    | Aşağıdaki öğeler doğrulama sınıfı tarafından kullanılan varsayılan hata
+    | mesajlarını içermektedir. `size` gibi bazı kuralların birden çok çeşidi
+    | bulunmaktadır. Her biri ayrı ayrı düzenlenebilir.
     |
     */
 
@@ -116,18 +116,23 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
+    | Özelleştirilmiş doğrulama mesajları
     |--------------------------------------------------------------------------
     |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
+    | Bu alanda her niteleyici (attribute) ve kural (rule) ikilisine özel hata
+    | mesajları tanımlayabilirsiniz. Bu özellik, son kullanıcıya daha gerçekçi
+    | metinler göstermeniz için oldukça faydalıdır.
+    |
+    | Örnek olarak:
+    |
+    | 'email.email': 'Girdiğiniz e-posta adresi geçerli değil.'
+    | 'x.regex': 'x alanı için "a-b.c" formatında veri girmelisiniz.'
     |
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'x' => [
+            'regex' => 'x alanı için "a-b.c" formatında veri girmelisiniz.',
         ],
     ],
 
