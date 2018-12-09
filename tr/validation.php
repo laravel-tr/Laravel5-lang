@@ -138,12 +138,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Attributes
+    | Özelleştirilmiş niteleyici isimleri
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
+    | Bu alandaki bilgiler "email" gibi niteleyici isimlerini "e-posta adresi"
+    | gibi daha okunabilir metinlere çevirmek için kullanılır. Bu bilgiler
+    | hata mesajlarının daha temiz olmasını sağlar.
+    |
+    | Örnek olarak:
+    |
+    | 'email' => 'e-posta adresi',
+    | 'password' => 'parola',
     |
     */
 
