@@ -108,6 +108,7 @@ return [
         'string' => ':attribute :size karakter olmalıdır.',
         'array' => ':attribute :size nesneye sahip olmalıdır.',
     ],
+    'starts_with' => ':attribute şunlardan biri ile başlamalıdır: :values',
     'string' => ':attribute dizge olmalıdır.',
     'timezone' => ':attribute geçerli bir saat dilimi olmalıdır.',
     'unique' => ':attribute daha önceden kayıt edilmiş.',
