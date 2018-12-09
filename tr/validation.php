@@ -32,6 +32,7 @@ return [
     'boolean' => ':attribute sadece doğru veya yanlış olmalıdır.',
     'confirmed' => ':attribute tekrarı eşleşmiyor.',
     'date' => ':attribute geçerli bir tarih olmalıdır.',
+    'date_equals' => ':attribute ile :date aynı tarihler olmalıdır.',
     'date_format' => ':attribute :format biçimi ile eşleşmiyor.',
     'different' => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits' => ':attribute :digits rakam olmalıdır.',
