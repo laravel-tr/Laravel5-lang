@@ -32,6 +32,7 @@ return [
     'boolean' => ':attribute sadece doğru veya yanlış olmalıdır.',
     'confirmed' => ':attribute tekrarı eşleşmiyor.',
     'date' => ':attribute geçerli bir tarih olmalıdır.',
+    'date_equals' => ':attribute ile :date aynı tarihler olmalıdır.',
     'date_format' => ':attribute :format biçimi ile eşleşmiyor.',
     'different' => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits' => ':attribute :digits rakam olmalıdır.',
@@ -107,6 +108,7 @@ return [
         'string' => ':attribute :size karakter olmalıdır.',
         'array' => ':attribute :size nesneye sahip olmalıdır.',
     ],
+    'starts_with' => ':attribute şunlardan biri ile başlamalıdır: :values',
     'string' => ':attribute dizge olmalıdır.',
     'timezone' => ':attribute geçerli bir saat dilimi olmalıdır.',
     'unique' => ':attribute daha önceden kayıt edilmiş.',
@@ -138,12 +140,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Attributes
+    | Özelleştirilmiş niteleyici isimleri
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
+    | Bu alandaki bilgiler "email" gibi niteleyici isimlerini "e-posta adresi"
+    | gibi daha okunabilir metinlere çevirmek için kullanılır. Bu bilgiler
+    | hata mesajlarının daha temiz olmasını sağlar.
+    |
+    | Örnek olarak:
+    |
+    | 'email' => 'e-posta adresi',
+    | 'password' => 'parola',
     |
     */
 
