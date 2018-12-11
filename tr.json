@@ -1,0 +1,12 @@
+{
+    "Hello!": "Merhaba!",
+    "Regards": "Saygılar",
+    "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)": "\":actionText\" butonuna tıklamakta sorun yaşıyorsanız, bu URL’yi kopyalayıp web tarayıcınıza yapıştırın: [:actionURL](:actionURL)",
+    "You are receiving this email because we received a password reset request for your account.": "Hesabınız için parola sıfırlama isteği aldığımız için bu e-postayı alıyorsunuz.",
+    "Reset Password": "Parola Sıfırla",
+    "If you did not request a password reset, no further action is required.": "Parola sıfırlama isteğinde bulunmadıysanız, başka bir işlem yapmanız gerekmez.",
+    "Reset Password Notification": "Parola Sıfırlama Bildirimi",
+    "Verify Email Address": "Eposta Adresinizi Doğrulayın",
+    "Please click the button below to verify your email address.": "E-posta adresinizi doğrulamak için lütfen aşağıdaki butona tıklayın.",
+    "If you did not create an account, no further action is required.": "Bir hesap oluşturmadıysanız, başka bir işlem yapmanız gerekmez."
+}
