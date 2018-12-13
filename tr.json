@@ -8,5 +8,11 @@
     "Reset Password Notification": "Parola Sıfırlama Bildirimi",
     "Verify Email Address": "Eposta Adresinizi Doğrulayın",
     "Please click the button below to verify your email address.": "E-posta adresinizi doğrulamak için lütfen aşağıdaki butona tıklayın.",
-    "If you did not create an account, no further action is required.": "Bir hesap oluşturmadıysanız, başka bir işlem yapmanız gerekmez."
+    "If you did not create an account, no further action is required.": "Bir hesap oluşturmadıysanız, başka bir işlem yapmanız gerekmez.",
+    "Send Password Reset Link": "Parola Sıfırlama Linkini Gönder",
+    "Verify Your Email Address": "Eposta Adresinizi Doğrulayın",
+    "A fresh verification link has been sent to your email address.": "E-posta adresinize yeni bir doğrulama bağlantısı gönderildi.",
+    "Before proceeding, please check your email for a verification link.": "Devam etmeden önce, lütfen doğrulama bağlantısı için e-postanızı bir kez daha kontrol edin.",
+    "If you did not receive the email": "Eğer herhangi bir eposta almadıysanız",
+    "click here to request another": "yeni bir doğrulama bağlantısı için buraya tıklayın."
 }
