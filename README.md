@@ -8,6 +8,8 @@
 #### Dosyaların kopyalanması
 *tr/* dizinini */resources/lang/* dizini içerisine kopyalayınız, sonuç olarak */resources/lang/tr/* şeklinde olacaktır.
 
+*tr.json* dosyasını */resources/lang/* dizini içerisine kopyalayınız, sonuç olarak */resources/lang/tr.json* şeklinde olacaktır.
+
 #### Laravel yazılımını Türkçe dilde kullanma
 *config/app.php* dosyasındaki, **locale** kısmındaki **en** ifadesini **tr** olarak değiştiriniz. Sonuç aşağıdaki gibi olacaktır:
 
