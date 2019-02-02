@@ -3,10 +3,10 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Şifre hatırlatma metinleri
+    | Parola hatırlatma metinleri
     |--------------------------------------------------------------------------
     |
-    | Aşağıdaki metinler, başarısız olmuş bir şifre sıfırlama
+    | Aşağıdaki metinler, başarısız olmuş bir parola sıfırlama
     | işleminde oluşan hataları temsil eden mesajlardır.
     |
     */
