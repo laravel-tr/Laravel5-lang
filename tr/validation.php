@@ -15,7 +15,7 @@ return [
 
     'accepted' => ':attribute kabul edilmelidir.',
     'active_url' => ':attribute geçerli bir URL olmalıdır.',
-    'after' => ':attribute şundan daha eski bir tarih olmalıdır :date.',
+    'after' => 'Girdiğiniz :attribute, :date tarihinden sonraki bir tarih olmalıdır.',
     'after_or_equal' => ':attribute tarihi :date tarihinden sonra veya tarihine eşit olmalıdır.',
     'alpha' => ':attribute sadece harflerden oluşmalıdır.',
     'alpha_dash' => ':attribute sadece harfler, rakamlar ve tirelerden oluşmalıdır.',
